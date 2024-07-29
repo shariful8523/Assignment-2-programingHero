@@ -1,0 +1,47 @@
+.font{
+    font-family: "Inter", sans-serif;
+}
+ 
+.Background-cl{
+    background: rgb(0, 0, 0);
+}  
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Brand-name{
+    color:  rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.menu-containur{
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+    padding: 13px;
+    gap: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    
+
+}
+
+.Home{
+    
+    background: rgb(230, 83, 60);
+    border-radius: 46px;
+    padding: 9px 25px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+}
