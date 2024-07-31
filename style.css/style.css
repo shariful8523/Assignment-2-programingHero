@@ -6,7 +6,7 @@
     background: rgb(0, 0, 0);
 }  
 
-
+/* navbar section start here */
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -26,7 +26,7 @@
     box-sizing: border-box;
     padding: 13px;
     gap: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.123);
     border-radius: 30px;
     
 
@@ -44,4 +44,29 @@
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 400;
+}
+.hambergur-menu{
+    display: none;
+    
+}
+/* navbar section end here */
+
+/* responcive section start here */
+@media screen and (max-width:576px) {
+           
+    .menu-containur{
+        display: none;
+    }
+
+    .hambergur-menu{
+        display: block;
+        color: white;
+        margin-top: 40px;
+        margin-right: -40px;
+       
+    }
+    .Brand-name{
+        margin-top: 30px;
+        margin-left: -60px;
+    }
 }
