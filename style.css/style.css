@@ -10,6 +10,9 @@
     max-width: 1200px;
     margin: auto;
 }
+.header{
+    background: linear-gradient(to top, black,rgba(39, 38, 38, 0.76) 100%);
+}
 
 /* navbar section start here */
 .navbar{
@@ -59,14 +62,10 @@
 /* Banner section start here */
 .Banner-container{
     margin: auto;
-    width: 818px;
+    width:80%;
     height: 400px;
     display: flex;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    
-    
-    
-   
+    margin-top: 80px;
 }
 
 .Banner-section-A{
@@ -79,7 +78,7 @@
     color: rgb(255, 255, 255);
     font-family: Inter;
     text-align: left;
-    margin-top: -5px;
+    margin-top: 50px;
     font-size: 50px;
     font-weight: 700px;
 }
@@ -87,12 +86,13 @@
 .Banner-section-A>p{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 13px;
+    font-size: 12px;
     text-align: left;
+    margin-right: 50px;
 }
 
 .Banner-section-A-btn-container{
-    margin-top: 40px;
+    margin-top: 30px;
     
 }
 
@@ -123,8 +123,8 @@
 } 
 
 .Banner-img{
-    
     height: 400px;
+    width: auto;
     margin-left: 100px;
 }
 
@@ -138,8 +138,8 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 50%;
-    left: 77%;
+    bottom: 40%;
+    left: 73%;
     width: 170px;
     height: 90px;
 }
@@ -156,12 +156,6 @@
     margin-top: -15px;
 }
 
-
-
-
-
-
-
 .img-card-2{
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -175,7 +169,7 @@
     position: absolute;
     bottom: 15%;
     left: 49%;
-    top: 70%;
+    top: 85%;
     width: 180px;
     height: 90px;
    
@@ -199,6 +193,54 @@
 
 /* Banner section end here */
 
+/* Habits section start here */
+
+/* .Habits-section-containur{
+    border: 2px solid red;
+    margin: auto;
+    width: 818px;
+    height: 400px;
+    margin-top: 50px;
+    
+}
+.Habits-content{
+    border: 2px solid blue;
+    width: 580px;
+    height: 140px;
+     margin-left: 115px;
+}
+.Habits-content>h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    text-align: center;
+}
+
+.Habits-content>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    text-align: center;
+   font-size: 14px;
+   font-weight: 100;
+   line-height: 24px;
+   margin-top: -15px;
+}
+
+ */
+
+
+
+
+/* Habit section end here */
+
+
+
+
+
+
+
+
+
+
 /* responsive section start here */
 @media screen and (max-width:576px) {
            
@@ -211,7 +253,6 @@
         color: white;
         margin-top: 40px;
         margin-right: -40px;
-       
     }
     .Brand-name{
         margin-top: 30px;
@@ -219,6 +260,7 @@
     }
      
     .Banner-container{
+       
         flex-direction: column;
         width: auto;
         
@@ -232,23 +274,33 @@
 
 
     .img-card-1{
-       margin-bottom: -300px;
-        margin-left: -80px;
+       margin-bottom: -370px;
+        margin-left: -62px;
         width: 160px;
         height: 75px;
     }
 
     .img-card-2{
         margin-left: -170px;
-        margin-top: 280px;
+        margin-top: 340px;
     }
     .Banner-img{
         margin-left: 30px;
         width: auto;
         height: auto;
     }
+   .Banner-section-A>h1{
+    margin-top: 30px;
+      font-size: 40px;
+   }
+   .Banner-section-A>p{
+    font-size: 15px;
+    width: 250px;
+   }
 
-
+   .Banner-section-A-btn-container{
+    padding: 9px 25px;
+   }
 
 
 
