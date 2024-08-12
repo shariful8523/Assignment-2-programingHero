@@ -327,11 +327,64 @@
     margin-top: -10px;
 }
 
-
-
-
-
 /* Habit section end here */
+
+/* RunExtra-section start here */
+
+.RunExtra-section{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 300px;
+    display: flex;
+  
+}
+
+.RunExtra-text{
+    width: 50%;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.RunExtra-text>h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+}
+.RunExtra-text>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    width: 300px;
+}
+.RunExtra-text>button{
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+.RunExtra-img{
+    width: 50%;
+    height: 300px;
+}
+
+.RunExtra-img>img{
+    border-radius: 18px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;    
+}
+
+/* RunExtra-section end here */
 
 
 
@@ -451,6 +504,50 @@
    margin-left: 50px;
     width: 200px;
 }
+
+.RunExtra-section{
+    margin-top: 1000px;
+    flex-direction: column;
+    width: 370px;
+    height: 550px;
+}
+
+.RunExtra-text>button{
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
