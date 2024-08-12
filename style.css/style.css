@@ -195,17 +195,15 @@
 
 /* Habits section start here */
 
-/* .Habits-section-containur{
-    border: 2px solid red;
+.Habits-section-containur{
     margin: auto;
-    width: 818px;
-    height: 400px;
+    width:80%;
+    height: 460px;
     margin-top: 50px;
     
 }
 .Habits-content{
-    border: 2px solid blue;
-    width: 580px;
+    width: 70%;
     height: 140px;
      margin-left: 115px;
 }
@@ -225,7 +223,110 @@
    margin-top: -15px;
 }
 
- */
+.habit-card-containur{
+    display: flex;
+   
+}
+.Habit-card-1{
+    width: 25%;
+    height: 315px;
+   
+}
+
+.Habit-card-1>img{
+    border-radius: 150px;
+    padding: 15px;
+   
+}
+
+.Habit-card-1>h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.Habit-card-1>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 5;
+    text-align: center;
+    margin-top: -10px;
+}
+.Habit-card-2{
+    width: 25%;
+    height: 315px;
+}
+.Habit-card-2>img{
+    border-radius: 150px;
+    padding: 15px;
+   
+}
+.Habit-card-2>h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.Habit-card-2>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 5;
+    text-align: center;
+    margin-top: -10px;
+}
+.Habit-card-3{
+    width: 25%;
+    height: 315px;
+}
+.Habit-card-3>img{
+    border-radius: 150px;
+    padding: 15px;
+   
+}
+.Habit-card-3>h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.Habit-card-3>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 5;
+    text-align: center;
+    margin-top: -10px;
+}
+.Habit-card-4{
+    width: 25%;
+    height: 315px;
+}
+.Habit-card-4>img{
+    border-radius: 150px;
+    padding: 15px;
+   
+}
+.Habit-card-4>h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.Habit-card-4>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 5;
+    text-align: center;
+    margin-top: -10px;
+}
+
 
 
 
@@ -301,6 +402,58 @@
    .Banner-section-A-btn-container{
     padding: 9px 25px;
    }
+
+  .Habits-section-containur{
+  margin-top: 550px;
+  }
+ .Habits-content{ 
+   width: 200px;
+   margin-left: -40px;
+ }
+ .Habits-content>h1{
+    font-size: 30px;
+    width: 300px;
+    margin-left: 40px;
+ }
+ .Habits-content>p{
+    margin-top: 10px;
+    font-size: 15px;
+    width: 310px;
+   margin-left: 35px;
+    
+ }
+
+
+
+
+.habit-card-containur{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+}
+.Habit-card-1{
+    margin-left: 50px;
+    width: 200px;
+}
+
+
+.Habit-card-2{
+    margin-left: 50px;
+    width: 200px;
+}
+
+.Habit-card-3{
+    margin-left: 50px;
+    width: 200px;
+}
+.Habit-card-4{
+   margin-left: 50px;
+    width: 200px;
+}
+
+
+
 
 
 
