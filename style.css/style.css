@@ -387,7 +387,132 @@
 /* RunExtra-section end here */
 
 
+.Memberships-containur{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 400px;
+}
 
+.Memberships-content{
+    margin: auto;
+    width: 80%;
+    height: 150px;
+}
+
+.Memberships-content>h1{
+    color: rgb(255, 255, 255); 
+    font-family: Inter;
+    text-align: center;
+}
+
+.Memberships-content>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+
+.Memberships-card-contaainur{
+   
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.Memberships-card-1{
+    border-radius: 18px;
+    background: rgb(114, 114, 216);
+    width: 30%;
+    height: 220px;
+    margin-left: 3px;
+    
+}
+
+.Memberships-card-1>h2{
+    color: white;
+    text-align: center;
+    margin-top: px;
+
+}
+.Memberships-card-1>p{
+    font-size: 50px;
+    text-align: center;
+    margin-top: -5px;
+}
+.Memberships-card-1>button{
+    width: 200px;
+    height: 40px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 30px;
+    margin-left: 25px;
+  
+   
+}
+
+.Memberships-card-2{
+    width: 33.32%;
+    height: 220px;
+    background-color: rgb(100, 100, 86);
+    border-radius: 18px;
+
+}
+
+
+.Memberships-card-2>h2{
+    color: white;
+    text-align: center;
+    margin-top: px;
+
+}
+.Memberships-card-2>p{
+    font-size: 50px;
+    text-align: center;
+    margin-top: -5px;
+}
+.Memberships-card-2>button{
+    width: 200px;
+    height: 40px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 30px;
+    margin-left: 35px;
+
+}
+
+
+.Memberships-card-3{
+    width: 33.32%;
+    height: 220px;
+    background-color: rgb(71, 71, 10);
+    border-radius: 18px;
+}
+
+
+.Memberships-card-3>h2{
+    color: white;
+    text-align: center;
+}
+.Memberships-card-3>p{
+    font-size: 50px;
+    text-align: center;
+    margin-top: -5px;
+}
+.Memberships-card-3>button{
+    width: 200px;
+    height: 40px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 30px;
+    margin-left: 40px;
+
+}
 
 
 
