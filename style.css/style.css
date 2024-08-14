@@ -386,7 +386,7 @@
 
 /* RunExtra-section end here */
 
-
+/* challenge-part-star-here */
 .Memberships-containur{
     border-radius: 18px;
     background: rgb(34, 34, 34);
@@ -513,6 +513,211 @@
     margin-left: 40px;
 
 }
+
+/* challenge-part-end-here */
+
+
+.Bmi-text-containur{
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      width: 80%;
+      height: 120px;
+}
+
+.Bmi-text-containur>h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    margin-top: -7px;
+    margin-left: 200px;
+
+}
+
+.Bmi-text-containur>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+
+/* BMI Calculator Chart start here */
+
+
+.Bmi-containur{
+    background: rgb(34, 34, 34);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+}
+
+.BMI-Calculator-Chart{
+    width: 40%;
+    height: 346px;
+    margin-left: 100px;
+}
+
+.Calculate-your-BMI{
+    width: 40%;
+    height: 398px;
+}
+
+
+
+.BMI-Calculator-Chart>h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+}
+
+.table-row{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+}
+
+.table-body{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+}
+
+.table-row-bmi{
+   text-align: left;
+}
+
+
+
+.Calculate-your-BMI>h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+
+}
+
+.Calculate-your-BMI>p{
+    color: rgba(255, 255, 255, 0.5);
+     font-family: Inter;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+
+.BMI-form-containur{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+.height{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 50px;
+   
+}
+
+.height-content , .weight-content , .age-content , .sex-content{
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 198px;
+    height: 49px;
+    
+  
+}
+
+.activity-content{
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    width: 420px ;
+    height: 50px;
+
+}
+.weight{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 50px;
+
+}
+
+.age{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 50px;
+}
+
+.sex{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 200px;
+    height: 50px;
+
+}
+
+.sex-option{
+    background-color: black;
+}
+
+.activati{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    grid-column: span 2;
+    width: 420px ;
+    height: 50px;
+}
+
+.btn-1{
+    border-radius: 50px;
+    background:  rgb(230, 83, 60);
+    border: none;
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+
+/* BMI Calculator Chart End here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -641,16 +846,89 @@
     width: 300px;
 }
 
+.Memberships-containur{
+    flex-direction: column;
+    width: 370px;
+    height: 1000px;
+}
+
+.Memberships-card-1{
+    margin-top: 00px;
+    width: 260px;
+    margin-left: 70px;
+ }
+ 
+
+.Memberships-card-2{
+   margin-top: 270px;
+   width: 270px;
+   margin-left: -270px;
+}
+
+.Memberships-card-3{
+    margin-top: 550px;
+    margin-left: -280px;
+    width: 270px;
+   
+ }
 
 
+ .Bmi-text-containur>h1{
+    margin-left: -10px;
+ }
 
+ .Bmi-text-containur>p{
+    font-size: 12px;
+    width: 80%px;
+    margin-left: -20px;
+ }
 
+ .Bmi-containur{
+   width: 100%;
+   height: 800px;
+   margin-bottom: 30px;
 
+ }
+ .BMI-Calculator-Chart{
+   width: 300px;
+   align-items: center;
+   margin-left: 20px;
+ }
 
+.Calculate-your-BMI{
+    margin-top: 350px;
+    margin-left: -500px;
+    
+}
 
+.Calculate-your-BMI>h1{
+    width: 300px;
+    margin-left: 200px;
+}
+.Calculate-your-BMI>p{
+    width: 300px;
+    margin-left: 200px;
+}
 
+.BMI-form-containur{
+   margin-left: 200px;
+}
+.height , .height-content ,  .age , .age-content{
+  width: 170px;
+}
 
+.weight , .sex{
+   width: 150px;
+  margin-left: -8px;
+}
 
+.weight-content , .sex-content{
+    width: 149px;
+}
+.activati , .activity-content{
+    width: 350px;
+
+}
 
 
 
