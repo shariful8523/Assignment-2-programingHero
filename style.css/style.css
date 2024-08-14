@@ -701,7 +701,67 @@ td,th{
 
 /* BMI Calculator Chart End here */
 
+/* Meet Our Team start here */
 
+.our-team-heading h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 70px;
+
+}
+.our-team-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20pex;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    max-width: 671px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.our-team-img{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.team-1{
+    position: relative;
+    border-radius: 20px;
+    width: 90%;
+    margin:  20px auto;
+    
+}
+.team-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+   
+    
+}
+.team-text{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    margin-left: 20px;
+}
+.team-text h6{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+.team-text p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -40px;
+}
+
+/* Meet Our Team end here */
 
 
 
@@ -904,6 +964,7 @@ td,th{
 .Calculate-your-BMI>h1{
     width: 300px;
     margin-left: 200px;
+    margin-top: 50px;
 }
 .Calculate-your-BMI>p{
     width: 300px;
@@ -930,7 +991,26 @@ td,th{
 
 }
 
+.our-team-img{
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+}
 
+#team-3-content{
+    margin-top: 50px;
+}
+
+#team-4-content{
+    margin-top: -70px;
+}
+
+#team-5-content{
+    margin-top: 50px;
+}
+
+#team-6-content{
+    margin-top: -10px;
+}
 
 
 
